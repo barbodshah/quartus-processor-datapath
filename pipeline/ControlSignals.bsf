@@ -1,0 +1,127 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 240 272)
+	(text "ControlSignals" (rect 5 0 86 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 240 25 252)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Instruction[15..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "Instruction[15..0]" (rect 21 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "jal" (rect 0 0 11 14)(font "Arial" (font_size 8)))
+		(text "jal" (rect 192 27 203 41)(font "Arial" (font_size 8)))
+		(line (pt 224 32)(pt 208 32)(line_width 1))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "regDest" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "regDest" (rect 159 43 203 57)(font "Arial" (font_size 8)))
+		(line (pt 224 48)(pt 208 48)(line_width 1))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "regWrite" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "regWrite" (rect 155 59 203 73)(font "Arial" (font_size 8)))
+		(line (pt 224 64)(pt 208 64)(line_width 1))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "jr" (rect 0 0 7 14)(font "Arial" (font_size 8)))
+		(text "jr" (rect 196 75 203 89)(font "Arial" (font_size 8)))
+		(line (pt 224 80)(pt 208 80)(line_width 1))
+	)
+	(port
+		(pt 224 96)
+		(output)
+		(text "normalExtend" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "normalExtend" (rect 127 91 203 105)(font "Arial" (font_size 8)))
+		(line (pt 224 96)(pt 208 96)(line_width 1))
+	)
+	(port
+		(pt 224 112)
+		(output)
+		(text "memRead" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "memRead" (rect 148 107 203 121)(font "Arial" (font_size 8)))
+		(line (pt 224 112)(pt 208 112)(line_width 1))
+	)
+	(port
+		(pt 224 128)
+		(output)
+		(text "memToReg" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "memToReg" (rect 141 123 203 137)(font "Arial" (font_size 8)))
+		(line (pt 224 128)(pt 208 128)(line_width 1))
+	)
+	(port
+		(pt 224 144)
+		(output)
+		(text "memWrite" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "memWrite" (rect 148 139 203 153)(font "Arial" (font_size 8)))
+		(line (pt 224 144)(pt 208 144)(line_width 1))
+	)
+	(port
+		(pt 224 160)
+		(output)
+		(text "jump" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "jump" (rect 178 155 203 169)(font "Arial" (font_size 8)))
+		(line (pt 224 160)(pt 208 160)(line_width 1))
+	)
+	(port
+		(pt 224 176)
+		(output)
+		(text "bnq" (rect 0 0 21 14)(font "Arial" (font_size 8)))
+		(text "bnq" (rect 182 171 203 185)(font "Arial" (font_size 8)))
+		(line (pt 224 176)(pt 208 176)(line_width 1))
+	)
+	(port
+		(pt 224 192)
+		(output)
+		(text "beq" (rect 0 0 21 14)(font "Arial" (font_size 8)))
+		(text "beq" (rect 182 187 203 201)(font "Arial" (font_size 8)))
+		(line (pt 224 192)(pt 208 192)(line_width 1))
+	)
+	(port
+		(pt 224 208)
+		(output)
+		(text "ALUSrc" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "ALUSrc" (rect 159 203 203 217)(font "Arial" (font_size 8)))
+		(line (pt 224 208)(pt 208 208)(line_width 1))
+	)
+	(port
+		(pt 224 224)
+		(output)
+		(text "ALUOp[3..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "ALUOp[3..0]" (rect 134 219 203 233)(font "Arial" (font_size 8)))
+		(line (pt 224 224)(pt 208 224)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 240)(line_width 1))
+	)
+)
